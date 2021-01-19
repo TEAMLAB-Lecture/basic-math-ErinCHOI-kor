@@ -81,7 +81,7 @@ def get_mean(number_list):
     for i in range(1,n):
         sum_number += number_list[i]
 
-    mean = int(sum_number/n)
+    mean = float(sum_number/n)
     return mean
 
 
@@ -106,6 +106,6 @@ def get_median(number_list):
             35.5
     """
     n = len(number_list)
-    median = sorted(number_list)[(n//2)] 
+    median = sorted(number_list)[(n//2)-1] 
   
     return median
