@@ -24,7 +24,6 @@ def get_greatest(number_list):
             >>> bm.get_greatest(number_list)
             99
     """
-    
     n = len(number_list)
     greatest_number = number_list[0]
     for i in range(1,n):
